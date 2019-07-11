@@ -1,7 +1,11 @@
 import React from "react";
 
 const Name = () => {
-  return <div>Elizabeth Regina</div>;
+  return (
+    <div>
+      <p>Elizabeth Regina</p>
+    </div>
+  );
 };
 
 export default Name;

@@ -1,8 +1,23 @@
+<<<<<<< HEAD
 import React from "react";
 import Likes from "../likes";
 import ProfileImage from "../profileImage/ProfileImage";
 import "./profile.css";
 import Stars from "../Stars";
+=======
+<<<<<<< HEAD
+import React from 'react';
+import Likes from '../likes/likes';
+import ProfileImage from "../profileImage/ProfileImage"
+import './profile.css';
+=======
+import React from "react";
+import Likes from "../likes";
+import "./profile.css";
+import Name from "../name";
+import Description from "../description";
+>>>>>>> Name and description changes made
+>>>>>>> Name and description changes made
 
 class Profile extends React.Component {
   constructor(props) {
@@ -19,8 +34,16 @@ class Profile extends React.Component {
   render() {
     return (
       <section className="profile">
+<<<<<<< HEAD
         <ProfileImage />
+<<<<<<< HEAD
         <Stars />
+=======
+=======
+        <Name />
+        <Description />
+>>>>>>> Name and description changes made
+>>>>>>> Name and description changes made
         <Likes
           likeCounter={this.state.likeCounter}
           likeHandler={this.likeHandler}
