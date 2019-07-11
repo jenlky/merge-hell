@@ -1,5 +1,6 @@
 import React from 'react';
 import Likes from '../likes';
+import ProfileImage from "../profileImage/ProfileImage"
 import './profile.css';
 
 class Profile extends React.Component {
@@ -17,6 +18,7 @@ class Profile extends React.Component {
   render() {
     return (
       <section className="profile">
+        <ProfileImage />
         <Likes
           likeCounter={this.state.likeCounter}
           likeHandler={this.likeHandler}
