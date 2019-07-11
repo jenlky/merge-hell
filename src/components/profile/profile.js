@@ -1,23 +1,11 @@
-<<<<<<< HEAD
-import React from "react";
-import Likes from "../likes";
-import ProfileImage from "../profileImage/ProfileImage";
-import "./profile.css";
-import Stars from "../Stars";
-=======
-<<<<<<< HEAD
 import React from 'react';
 import Likes from '../likes/likes';
 import ProfileImage from "../profileImage/ProfileImage"
 import './profile.css';
-=======
-import React from "react";
-import Likes from "../likes";
-import "./profile.css";
 import Name from "../name";
+import Stars from "../Stars";
 import Description from "../description";
->>>>>>> Name and description changes made
->>>>>>> Name and description changes made
+
 
 class Profile extends React.Component {
   constructor(props) {
