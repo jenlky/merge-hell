@@ -1,8 +1,6 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import Profile from "./components/profile";
-import Stars from "./Stars";
+import React from 'react';
+import Profile from './components/profile/profile';
+import Stars from './Stars';
 
 function App() {
   return (

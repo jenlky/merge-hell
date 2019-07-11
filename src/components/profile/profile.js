@@ -1,7 +1,6 @@
-import React from "react";
-import profileImage from "./profileImage";
-import Likes from "./likes";
-
+import React from 'react';
+import Likes from '../likes';
+import './profile.css';
 // const Profile = () => {
 //   return (
 //     <div>
@@ -24,12 +23,12 @@ class Profile extends React.Component {
 
   render() {
     return (
-      <React.Fragment>
+      <section className="profile">
         <Likes
           likeCounter={this.state.likeCounter}
           likeHandler={this.likeHandler}
         />
-      </React.Fragment>
+      </section>
     );
   }
 }
