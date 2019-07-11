@@ -1,10 +1,10 @@
 import React from "react";
 
-const profileImage = () => {
+const ProfileImage = () => {
   return (
     <React.Fragment>
       <img src="https://i.redd.it/aessvr740kq01.jpg" alt="This is me." />
     </React.Fragment>
   );
 };
-export default profileImage;
+export default ProfileImage;
