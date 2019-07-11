@@ -1,5 +1,5 @@
 import React from 'react';
-import Likes from '../likes';
+import Likes from '../likes/likes';
 import ProfileImage from "../profileImage/ProfileImage"
 import './profile.css';
 
