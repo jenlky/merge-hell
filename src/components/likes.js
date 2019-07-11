@@ -1,6 +1,6 @@
 import React from "react";
 
-function Likes() {
+function Likes(props) {
   return (
     <div className="counter">
       <h1>{`${props.likeCounter} likes`} </h1>
