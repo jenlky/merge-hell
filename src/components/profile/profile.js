@@ -1,13 +1,6 @@
 import React from 'react';
 import Likes from '../likes';
 import './profile.css';
-// const Profile = () => {
-//   return (
-//     <div>
-//       <profileImage />
-//     </div>
-//   );
-// };
 
 class Profile extends React.Component {
   constructor(props) {
