@@ -1,5 +1,5 @@
 import React from "react";
-import ProfileImage from "./ProfileImage";
+import ProfileImage from "../profileImage/ProfileImage";
 
 const Card = props => {
   return (
