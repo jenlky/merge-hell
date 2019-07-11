@@ -1,0 +1,16 @@
+h1 {
+  font-family: Montserrat;
+}
+
+p {
+  font-family: Raleway;
+}
+
+.profile {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('./profileImage.jpeg');
+  background-size: cover;
+}
