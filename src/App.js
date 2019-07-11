@@ -1,11 +1,9 @@
-import React from 'react';
-import Profile from './components/profile/profile';
-import Stars from './Stars';
+import React from "react";
+import Profile from "./components/profile/profile";
 
 function App() {
   return (
     <div className="App">
-      <Stars />
       <header className="App-header">
         <Profile />
       </header>
